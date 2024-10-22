@@ -1,0 +1,17 @@
+npm verbose cli /root/.nvm/versions/node/v22.9.0/bin/node /root/.nvm/versions/node/v22.9.0/bin/npm
+npm info using npm@10.8.3
+npm info using node@v22.9.0
+npm verbose title npm install zustand
+npm verbose argv "install" "--loglevel" "verbose" "zustand"
+npm verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-10-22T02_42_51_034Z-
+npm verbose logfile /root/.npm/_logs/2024-10-22T02_42_51_034Z-debug-0.log
+npm http fetch GET https://registry.npmmirror.com/zustand attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/zustand attempt 2 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/zustand attempt 3 failed with EAI_AGAIN
+npm http fetch GET 200 https://registry.npmmirror.com/zustand 100317ms (cache stale)
+npm http fetch GET https://registry.npmmirror.com/@types%2freact attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/@types%2freact attempt 2 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/@types%2freact attempt 3 failed with EAI_AGAIN
+npm http fetch GET 200 https://registry.npmmirror.com/@types%2freact 100178ms (cache stale)
+npm http fetch GET https://registry.npmmirror.com/immer attempt 1 failed with EAI_AGAIN
+npm http fetch GET https://registry.npmmirror.com/immer attempt 2 failed with EAI_AGAIN

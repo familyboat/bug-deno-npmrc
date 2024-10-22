@@ -1,0 +1,16 @@
+DEBUG RS - deno_config::deno_json:779 - Config file found at '/root/test/deno-npmrc-test/deno.json'
+DEBUG RS - deno_config::workspace::discovery:266 - package.json file found at '/root/test/deno-npmrc-test/package.json'
+DEBUG RS - deno::args:930 - Finished config loading.
+DEBUG RS - deno::file_fetcher:622 - FileFetcher::fetch_no_follow_with_options - specifier: https://registry.npmjs.org/zustand
+DEBUG RS - deno::file_fetcher:354 - FileFetcher::fetch_remote_no_follow - specifier: https://registry.npmjs.org/zustand
+TRACE RS - deno::file_fetcher:380 - [0m[32mDownload[0m https://registry.npmjs.org/zustand
+TRACE RS - hyper_util::client::legacy::pool:671 - checkout waiting for idle connection: ("https", registry.npmjs.org)
+TRACE RS - hyper_util::client::legacy::connect::http:370 - Http::connect; scheme=Some("https"), host=Some("registry.npmjs.org"), port=None
+DEBUG RS - hyper_util::client::legacy::connect::dns:122 - resolving host="registry.npmjs.org"
+TRACE RS - hyper_util::client::legacy::pool:713 - checkout dropped for ("https", registry.npmjs.org)
+DEBUG RS - deno::file_fetcher:422 - Import 'https://registry.npmjs.org/zustand' failed: error sending request for url (https://registry.npmjs.org/zustand): client error (Connect): dns error: failed to lookup address information: Temporary failure in name resolution: failed to lookup address information: Temporary failure in name resolution. Retrying...
+TRACE RS - hyper_util::client::legacy::pool:671 - checkout waiting for idle connection: ("https", registry.npmjs.org)
+TRACE RS - hyper_util::client::legacy::connect::http:370 - Http::connect; scheme=Some("https"), host=Some("registry.npmjs.org"), port=None
+DEBUG RS - hyper_util::client::legacy::connect::dns:122 - resolving host="registry.npmjs.org"
+TRACE RS - hyper_util::client::legacy::pool:713 - checkout dropped for ("https", registry.npmjs.org)
+[0m[1m[31merror[0m: [0m[31mnpm:zustand[0m was not found.
